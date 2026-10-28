@@ -1,0 +1,10 @@
+# Dataset files are not tracked (see data/README.md)
+data/*.csv
+data/*.zip
+
+# Figure written by the notebooks' plt.savefig("pie chart") call
+pie chart.png
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/

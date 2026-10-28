@@ -1,0 +1,13 @@
+# Libraries imported by the notebooks in notebooks/.
+# The original runs used Python 3.11 (notebook metadata: 3.11.5). Exact library versions were not
+# recorded in the notebooks; the lower bounds below are inferred from the saved outputs.
+pandas>=2.0        # value_counts() output is named "count", which is pandas 2.x behaviour
+numpy
+matplotlib
+seaborn            # imported (only used in a commented-out line)
+scikit-learn
+xgboost>=2.0       # saved XGBClassifier repr includes the 2.x parameters `device` and `multi_strategy`
+nltk               # stop words (downloaded at run time) and Porter stemmer
+
+# Needed to open and run the notebooks
+jupyter
